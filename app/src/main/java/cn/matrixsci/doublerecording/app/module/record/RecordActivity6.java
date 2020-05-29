@@ -56,7 +56,7 @@ public class RecordActivity6 extends BaseActivity {
     @OnClick(R.id.btn_next)
     public void next(){
         new AlertDialog.Builder(this).setIcon(R.mipmap.ic_launcher).setTitle("提示")
-                .setMessage("是否访问手机摄像头")
+                .setMessage("是否本人签字确认?")
                 .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
