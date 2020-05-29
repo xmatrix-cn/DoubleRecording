@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">双录</string>
+
+    <!--mainPage hostTab-->
+    <string name="home_fragment">首页</string>
+    <string name="todo_policy_fragment">待面签保单</string>
+    <string name="my_policy_fragment">我的保单</string>
+    <string name="profile_fragment">我的</string>
+
+    <!--account-->
+    <string name="Registered_successfully">注册成功</string>
+
+    <!--record-->
+    <string name="record_title_offline">线下面签</string>
+    <string name="record_title_sign">客户签名</string>
+    <string name="record_title_finish">面签完成</string>
+
+    <string name="login_btn_action">登录</string>
+    <string name="login_txt_yourphone">你的手机号码</string>
+    <string name="login_txt_86">+86</string>
+    <string name="login_txt_inputpwd">填写密码</string>
+    <string name="password">密码</string>
+    <string name="login_btn_register">注册</string>
+    <string name="User_name_cannot_be_empty">User name cannot be empty!</string>
+    <string name="Password_cannot_be_empty">Password cannot be empty!</string>
+    <string name="Is_the_registered">Registering..</string>
+    <string name="key_back_msg">再次按返回键退出</string>
+
+    <string name="menu_groupchat">发起群聊</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_qrcode">扫一扫</string>
+    <string name="menu_money">微信钱包</string>
+    <string name="contacts">通讯录</string>
+    <string name="me">我</string>
+    <string name="discover">发现</string>
+    <string name="discover_txt_pengyouquan">朋友圈</string>
+    <string name="discover_txt_saoyisao">扫一扫</string>
+    <string name="discover_txt_yaoyiyao">摇一摇</string>
+    <string name="discover_txt_nearby">附近的人</string>
+    <string name="discover_txt_piaoliuping">漂流瓶</string>
+    <string name="discover_txt_shop">购物</string>
+    <string name="discover_txt_game">游戏</string>
+
+</resources>
