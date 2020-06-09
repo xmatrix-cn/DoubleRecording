@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout01">
+
+    <LinearLayout android:id="@+id/LinearLayout02"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放音频" />
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止播放" />
+    </LinearLayout>
+
+    <SeekBar android:id="@+id/SeekBar01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </SeekBar>
+
+
+    <LinearLayout android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button03"
+            android:text="播放视频" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="停止播放"
+            android:id="@+id/Button04" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="加框"
+            android:id="@+id/Button05" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="消除框"
+            android:id="@+id/Button06" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <SurfaceView
+            android:id="@+id/SurfaceView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <cn.matrixsci.doublerecording.app.module.test.TestVideoCoverView
+            android:visibility="invisible"
+            android:id="@+id/cover_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </cn.matrixsci.doublerecording.app.module.test.TestVideoCoverView>
+    </FrameLayout>
+
+    <SeekBar
+        android:id="@+id/SeekBar02"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+
+</LinearLayout>

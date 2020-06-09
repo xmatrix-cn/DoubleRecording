@@ -12,8 +12,6 @@ import butterknife.Bind;
 import butterknife.OnClick;
 import cn.matrixsci.doublerecording.R;
 import cn.matrixsci.doublerecording.app.base.BaseActivity;
-import cn.matrixsci.doublerecording.app.presenter.LoginCallback;
-import cn.matrixsci.doublerecording.app.presenter.LoginPresenter;
 import cn.matrixsci.doublerecording.common.MFGT;
 import cn.matrixsci.doublerecording.utils.LogUtils;
 
